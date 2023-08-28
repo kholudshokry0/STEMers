@@ -247,6 +247,9 @@
    .classes .card-text , .classes .col-6{
                font-size: 11px;
    }
+   .classes .card-text{
+    padding-bottom: -30%;
+   }
    #facilities p{
     font-size: 12px;
    }
@@ -257,6 +260,10 @@
     font-size: 13px;
 
    }
+   .classes .card-text{
+    padding-bottom: -30%;
+   }
+   
    #facilities p{
     font-size: 12px;
    }
