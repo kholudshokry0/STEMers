@@ -1,0 +1,386 @@
+:root{
+    --main: #eb5c05;
+    --sec: #efb01c;
+    
+    --third: #bdbdbd;
+}
+.learn{
+    background-color: var(--main);
+    color: aliceblue;
+    margin-top: -10% !important;
+    border: #bdbdbd;
+}
+.learn2{
+    margin-top: 1% !important;
+}
+#header , .about-page,.classes-page,.teachers-page,.contact-page{
+    /* background-color: var(--sec); */
+     background-image: linear-gradient(to  left, var(--main), var(--sec));
+    position: relative;
+    padding: 3% 0 3% 0;
+}
+#sendMessageButton{
+    background-color: var(--main);
+    border: 1px solid var(--main);
+}
+.icons i{
+    background-color: var(--main);
+}
+#header{
+    position: relative;
+}
+/* #logo-img{
+    position: absolute;
+    right: 0;
+    top: -3%;
+  
+} */
+#logo-text{
+    color:  var(--sec);
+}
+.active{
+    color: var(--sec) !important;
+}
+.navbar a:hover{
+    color: var(--sec) !important;
+}
+.navbar #join:hover{
+    color: aliceblue !important;
+    
+}
+.navbar #join{
+    background-color: var(--sec) !important ;
+    border-color: var(--third);
+    
+}
+.box{
+    height: 25vh;
+}
+.box h4{
+    color: var(--main);
+}
+.about-title{
+    color: #efb01c;
+}
+#big-title{
+    color: var(--main);
+}
+.pop{
+    color: var(--main);
+}
+.card-text h4{
+    color: var(--main);
+}
+.card a{
+    background-color: var(--sec) !important;
+    color: aliceblue;
+}
+.card-pop{
+    color: var(--sec);
+}
+.book h1{
+    color: var(--main);
+}
+.book a{
+    background-color: var(--sec);
+    border-color: #bdbdbd;
+}
+ .book-card .card-header , .book-card button {
+    background-color: var(--main);
+}
+.book-card .card-body{
+    background-color: #343a40;
+   
+}
+
+/* .Registration{
+    margin-top: 10%;
+} */
+
+.card-body-edit img{
+   height: 40vh;
+}
+.card-body-edit {
+   height: 140vh;
+}
+
+@media screen and (max-width: 670px )  {
+    .team img{
+        height: 25vh !important;
+     
+    }
+    .team .teamf{
+      
+        width: 40% !important;
+        margin: auto;
+    }
+  }
+
+
+/* ========================================== review ================================ */
+  .edit{
+    width: 49%;
+    height: 50vh;
+    border-radius: 3%;
+}
+.review-caresoul{
+    background-color: #eb5c05;
+}
+@media (max-width:760px) {
+    .edit{
+        width: 49%;
+        height: 25vh;
+        border-radius: 3%;
+  }
+
+  }
+@media (min-width:0  )  {
+    .edit{
+        width: 49%;
+        height: 10vh;
+        border-radius: 3%;
+      
+  }
+  .carousel-indicators button{
+      width: 3% !important;
+  }
+  .carousel-control-next{
+    width: 3%;
+    margin-right: 3%;
+  }
+  .carousel-control-prev{
+    width: 3%;
+    margin-left: 3%;
+
+
+  }
+
+
+  }
+
+
+
+/* ==================================== team ===================================== */
+.team-img1{
+    height: 35vh;
+    width: 100% ;
+    border-radius: 10%;
+}
+.team-img{
+    height: 35vh;
+    width: 100% ;
+    border-radius: 10%;
+}
+
+.img-parent {
+  
+    width: 23% !important;
+}
+.img-parent1 {
+  
+    width: 30% !important;
+}
+.img-parent h5 , .img-parent1 h5{
+    color: #eb5c05 !important;
+}
+.img-parent p , .img-parent1 p{
+    color: #1a3974 !important;
+}
+.last{
+    width: 50% !important;
+}
+.new-img{
+    width: 18% !important;
+}
+
+@media (max-width:760px) {
+    .carousel-item{
+        height:100vh;
+    }
+    .img-parent1 img{
+        height: 25vh;
+    }
+    .img-parent1 h5{}
+    .img-parent1 p{}
+}
+/* ================================================== Accreditation ==================================== */
+.Accreditation .caption img:nth-child(1){
+      width: 50%;
+      height: 25vh;
+      border-radius: 5%;
+}
+.Accreditation .caption img:nth-child(2){
+      width: 35%;
+      height: 23vh;
+      border-radius: 5%;
+}
+
+@media (max-width:760px) {
+    .Accreditation .caption img:nth-child(1){
+        width: 50%;
+        height: 10vh;
+        border-radius: 5%;
+  }
+  .Accreditation .caption img:nth-child(2){
+        width: 35%;
+        height: 10vh;
+        border-radius: 5%;
+  }
+  .Accreditation h1{
+    font-size: 25px;
+  }
+  }
+.Accreditation .caption {
+    width: 70%;
+    
+      margin:  auto;
+}
+
+.Accreditation{
+    margin: 5% 0;
+}
+/* ======================================== Media Query Classes ============================================ */
+#facilities p{
+    font-size: 14px;
+   }
+@media (max-width:320px) {
+   .classes .card-text , .classes .col-6{
+               font-size: 11px;
+   }
+   #facilities p{
+    font-size: 12px;
+   }
+
+}
+@media (min-width:321px)  and (max-width:375px) {
+   .classes .card-text , .classes .col-6{
+    font-size: 13px;
+
+   }
+   #facilities p{
+    font-size: 12px;
+   }
+
+}
+@media (min-width:376px)  and (max-width:768px) {
+   .classes .card-text {
+    font-size: 20px;
+
+   }
+   .classes .col-6{
+               font-size: 18px;
+   }
+   .classes .card-title{
+               font-size: 32px;
+   }
+}
+/* ========================================= team ========================================== */
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+#team {
+	padding: 30px 0;
+}
+.sec-heading h6 {
+	/* font-family: 'Allura', cursive; */
+	font-size: 65px;
+}
+.single-box {
+	border: 1px solid #ddd;
+	border-radius: 20px;
+	overflow: hidden;
+	background-color: #fff
+}
+.info-area {
+	padding: 0 20px 45px;
+}
+.img-area {
+	overflow: hidden;
+	padding: 15px 0 15px;
+}
+.img-area img {
+	margin: 0 auto;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	max-width: 230px;
+    border-radius: 5%;
+   
+}
+.single-box:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.info-area i {
+	display: inline-block;
+	color: #ffb400;
+	margin: 0 4px;
+}
+.info-area h4 {
+	font-weight: 600
+}
+.info-area h5 {
+	color: #3b04db;
+	margin: 10px 0 0;
+	font-weight: 600
+}
+.info-area a {
+	display: inline-block;
+	margin: 25px 0 0;
+	background-color: darkorange;
+	color: #fff;
+	padding: 10px 35px;
+	border-radius: 4px;
+}
+.team-slider .owl-dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -60px;
+	text-align: center;
+	width: 100%;
+}
+.team-slider button.owl-dot {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin: 0 6px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #262626;
+}
+.team-slider .owl-dot.active {
+	background-color: coral;
+}
+.move-animation {
+	position: relative;
+	-webkit-animation: move-animation 2s ease-in-out infinite;
+	animation: move-animation 2s ease-in-out infinite;
+}
+@-webkit-keyframes move-animation {
+	0% {
+		top: 3px;
+	}
+	50% {
+		top: -3px;
+	}
+	100% {
+		top: 3px;
+	}
+}
+
+
+@media (max-width:786px)  {
+    #team .sec-heading h6{
+        font-size: 33px;
+    }
+    .team-slider button.owl-dot {
+        width: 8px;
+        height: 8px;
+
+    }
+ }
+@media (min-width:787px)  {
+    #team .sec-heading h6{
+        font-size: 50px;
+    }
+ }
